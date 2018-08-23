@@ -1,0 +1,52 @@
+{
+    "name": "react-native-screen-support-orientation",
+    "version": "0.0.1",
+    "private": false,
+    "main": "index.js",
+    "description": "React Native Method to get current Screen Orientation with its Height and Width in IOS and Android ",
+  "scripts": {
+    "lint": "eslint src",
+    "precommit": "lint-staged",
+    "test": "npm run lint",
+    "prettier": "prettier --write all src/**/*.js",
+    "reset": "watchman watch-del-all && rm -rf node_modules/ && npm cache clean && npm prune && yarn cache clean"
+  },
+    
+  "dependencies": {
+    "react": "16.4.1",
+    "react-native": "^0.55.4"
+  },
+  
+  "devDependencies": {
+    "babel-jest": "23.4.2",
+    "babel-preset-react-native": "^2.1.0",
+    "jest": "23.5.0",
+    "react-test-renderer": "16.4.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "keywords": [
+    "react-native",
+    "react",
+    "native",
+    "height",
+    "width",
+    "orientation",
+    "screen",
+    "mode",
+    "portrait",
+    "landscape",
+    "according height",
+    "according screen",
+    "according view",
+    "support"
+  ],
+  "author": "Dotsquares",
+  "license": "ISC",
+  "homepage": "https://github.com/ajay001/react-native-screen-support-orientation",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ajay001/react-native-screen-support-orientation"
+  }
+}
