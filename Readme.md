@@ -36,9 +36,9 @@ import DateTimePickerModule from 'react-native-androidcustom-datetimepicker'
 
 | Prop                              | Type          | Description                                                                              |
 |-----------------------------------|-------------|------------------------------------------------------------------------------------------------------------|
-|`orientation`                      |`String`       |Give the orientation of the screen (PORTRAIT or LANDSCAPE) .                                                                     
-|`width`                       |`Number`       |Give the width of the screen according to the screen orientation .                                                                    
-|`height`                       |`Number`        |Give the height of the screen according to the screen orientation .  
+|`orientation`                      |`String`       |'Give the orientation of the screen (PORTRAIT or LANDSCAPE)' .                                                                     
+|`width`                       |`Number`       |'Give the width of the screen according to the screen orientation' .                                                                    
+|`height`                       |`Number`        |'Give the height of the screen according to the screen orientation' .  
 
 
 
