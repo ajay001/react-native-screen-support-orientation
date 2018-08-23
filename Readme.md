@@ -8,8 +8,7 @@ A react-native component for getting orientation of the screen and height, width
 ### Installation
 
 ```
-  npm install react-native-androidcustom-datetimepicker --save
-  react-native link react-native-androidcustom-datetimepicker
+  npm i react-native-screen-support-orientation --save
 
 ```
 
@@ -17,15 +16,16 @@ A react-native component for getting orientation of the screen and height, width
 ### Usage
 
 ```javascript
-import DateTimePickerModule from 'react-native-androidcustom-datetimepicker'
+import AppDimension from 'react-native-screen-support-orientation'
 ```
 ### Method to get the current Orientation, Width and Height of the screen. 
 ```
         
             AppDimension.getDimension((callback)=>{
-                /**this.setState({height:callback.height,width:callback.width,orientation                   :callback.orientation})**/
+                
                 alert(JSON.stringify(callback))
-                /**callback return an object => {"height":736,"width:"414",orientation:"PORTRAIT"}**/
+                /** this.setState({height:callback.height,width:callback.width,orientation:callback.orientation})
+                **/
             })
     
   
