@@ -1,5 +1,5 @@
 ## React Native Method to get current Screen Orientation with its Height and Width in IOS and Android
-<img width="274px" align="right" src="https://raw.githubusercontent.com/ajay001/react-native-androidcustom-datetimepicker/master/datetimePicker.gif" />
+<img width="274px" align="right" src="https://raw.githubusercontent.com/ajay001/react-native-screen-support-orientation/blob/master/DynamicOrientation.gif" />
 
 A react-native component for getting orientation of the screen and height, width of the screen according to its orientation .   
 
